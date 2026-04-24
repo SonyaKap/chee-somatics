@@ -1,0 +1,40 @@
+/* ── Google Fonts ─────────────────────────────────────────── */
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300;1,400&family=Jost:wght@300;400;500&display=swap');
+
+/* ── Design Tokens ────────────────────────────────────────── */
+:root {
+  --font-serif: 'Cormorant Garamond', Georgia, serif;
+  --font-sans:  'Jost', sans-serif;
+
+  --cream:      #f7f4ef;
+  --warm-dark:  #2b2620;
+  --text-dark:  #2b2620;
+  --text-mid:   #6b6158;
+  --sage:       #7a8c72;
+  --sage-light: #b5c4ac;
+  --sage-dark:  #5e6e57;
+  --border:     #e2ddd6;
+}
+
+/* ── Reset & Base ─────────────────────────────────────────── */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  background: var(--cream);
+  color: var(--text-dark);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  line-height: 1.6;
+}
+
+img { display: block; max-width: 100%; }
+
+/* ── Layout ───────────────────────────────────────────────── */
+.site-wrapper { display: flex; flex-direction: column; min-height: 100vh; }
+
+main {
+  flex: 1;
+  padding-top: 72px; /* nav height */
+}

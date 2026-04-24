@@ -1,0 +1,29 @@
+.footer {
+  background: var(--warm-dark);
+  color: var(--cream);
+  padding: 3rem;
+  text-align: center;
+}
+
+.footer-name {
+  font-family: var(--font-serif);
+  font-size: 1.1rem;
+  font-weight: 400;
+  margin-bottom: 0.75rem;
+  letter-spacing: 0.02em;
+}
+
+.footer-detail {
+  font-family: var(--font-sans);
+  font-size: 0.8rem;
+  letter-spacing: 0.06em;
+  color: rgba(255,255,255,0.6);
+  margin-bottom: 0.3rem;
+}
+
+.footer-detail a {
+  color: rgba(255,255,255,0.6);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+.footer-detail a:hover { color: rgba(255,255,255,0.9); }
