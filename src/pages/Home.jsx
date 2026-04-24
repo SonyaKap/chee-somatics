@@ -15,8 +15,8 @@ export default function Home() {
           />
         </div>
         <div className="hero-overlay">
-          <h1 className="hero-name">Jane Doe, LCSW</h1>
-          <p className="hero-tagline">Licensed Clinical Social Worker &nbsp;·&nbsp; Chicago, IL</p>
+          <h1 className="hero-name">Azalea Tang, LCSW</h1>
+          <p className="hero-tagline">Licensed Clinical Social Worker &nbsp;·&nbsp; Columbus, OH</p>
           <Link to="/about" className="hero-btn">Learn More</Link>
         </div>
       </section>

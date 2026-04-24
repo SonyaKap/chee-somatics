@@ -13,6 +13,10 @@
 }
 
 .nav-logo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2vw;
   font-family: var(--font-serif);
   font-size: 1.1rem;
   font-weight: 400;

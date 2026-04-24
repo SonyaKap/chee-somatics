@@ -35,7 +35,17 @@
   color: var(--text-mid);
   margin-bottom: 1.5rem;
 }
+.about-body ul {
+  font-size: 1rem;
+  line-height: 1.85;
+  color: var(--text-mid);
+  margin-bottom: 1.5rem;
+  margin-left: 3rem;
+}
 
+.click-paragraph p {
+  margin-bottom: 30px;
+}
 .about-contact {
   margin-top: 2.5rem;
   font-style: italic;

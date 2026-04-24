@@ -97,9 +97,7 @@ export default function Services() {
 
         <div className="services-cta">
           <p>Ready to take the first step?</p>
-          <a href="mailto:janedoe@email.com" className="cta-btn">
-            Get in Touch
-          </a>
+          <i>Get in touch at azaleatang@protonmail.com</i>
         </div>
       </section>
     </div>

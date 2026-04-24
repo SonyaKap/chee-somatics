@@ -38,3 +38,13 @@ main {
   flex: 1;
   padding-top: 72px; /* nav height */
 }
+
+/* ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+li::before {
+    content: '→ ';
+  color: var(--sage);
+} */
