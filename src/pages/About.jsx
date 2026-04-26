@@ -1,22 +1,18 @@
 import './About.css'
-
+import azaleaHeadshot from '../assets/AzaleaHeadshot.jpg'
 export default function About() {
   return (
     <div className="about">
-      {/* Page hero */}
-      <section className="page-hero">
-        <img
-          src="https://images.unsplash.com/photo-1518531933037-91b2f5f229cc?w=1600&q=80"
-          alt="Therapist portrait"
-          className="page-hero-image"
-        />
-      </section>
-
       {/* Content */}
       <section className="about-content">
         <h1 className="page-title">About Me</h1>
-
         <div className="about-body">
+          <img
+            src={azaleaHeadshot}
+            alt="Therapist portrait"
+            className="therapist-photo"
+          />
+          {/* <div className="about-body-column-two"> */}
           <p>
             Hi! I’m Azalea Tang, practice owner of Chee Somatics. I’m a first-born
             millennial daughter to first-generation Chinese immigrants, living most
@@ -48,7 +44,7 @@ export default function About() {
           <p>
             Somatic therapy involves intervention and exploration beyond cognitive “talk” therapy. I will likely invite you to explore other channels of experience, such as sensation, behavior, image, and movement. Many clients in this model experience refreshing break-throughs in previous
           </p>
-          <p className="click-paragraph">You might “click” with me if you vibe with one or more of the following: </p>
+          <p>You might “click” with me if you vibe with one or more of the following: </p>
           <ul>
             <li>Are curious and committed to exploring the ways that racialized capitalism are at work in your experience and lineage</li>
             <li>Are interested in embracing and better understanding your strengths</li>
@@ -56,12 +52,24 @@ export default function About() {
             <il>Are wanting to feel more connected to yourself and your relationships </il>
             <li>Are curious about the mind-body connection</li>
           </ul>
-          <p className="about-contact">
-            I'd love to hear from you:{' '}
-            <a href="mailto:azaleatang@protonmail.com">azaleatang@protonmail.com</a>
-          </p>
-
+          <h2 className="section-heading">Specialties</h2>
+          <ul>
+            <li>AAPI, Queer, and marginalized identities</li>
+            <li>Shock Trauma</li>
+            <li>Developmental Trauma</li>
+            <li>Grief, Loss, & Life Transitions</li>
+            <li>Spirituality Outside of Organized Religion</li>
+            <li>Caregiver Stress and Burnout</li>
+            <li>First/Second Generation Immigrant Issues</li>
+            <li>LGBTQ+ Issues</li>
+            <li>Polyamory</li>
+            <li>Relationship Issues</li>
+            <li>Adult/Late in life ADHD/Autism Diagnosis</li>
+            <li>Chronic Illness</li>
+          </ul>
         </div>
+
+        {/* </div> */}
       </section>
     </div>
   )

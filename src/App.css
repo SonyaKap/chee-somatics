@@ -29,8 +29,6 @@ body {
   line-height: 1.6;
 }
 
-img { display: block; max-width: 100%; }
-
 /* ── Layout ───────────────────────────────────────────────── */
 .site-wrapper { display: flex; flex-direction: column; min-height: 100vh; }
 
@@ -38,13 +36,3 @@ main {
   flex: 1;
   padding-top: 72px; /* nav height */
 }
-
-/* ul {
-  list-style: none;
-  padding-left: 0;
-}
-
-li::before {
-    content: '→ ';
-  color: var(--sage);
-} */

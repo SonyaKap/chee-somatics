@@ -9,7 +9,6 @@ export default function Nav() {
   return (
     <header className="nav-header">
       <NavLink to="/" className="nav-logo">
-        <img src={logo} alt="Chee Somatics logo" height="40" />
         Azalea Tang, LCSW
       </NavLink>
       <button
@@ -22,7 +21,7 @@ export default function Nav() {
 
       <nav className={`nav-links ${menuOpen ? 'open' : ''}`}>
         <NavLink to="/about" onClick={() => setMenuOpen(false)}>About</NavLink>
-        <NavLink to="/services" onClick={() => setMenuOpen(false)}>Services, Rates &amp; Policies</NavLink>
+        <NavLink to="/services" onClick={() => setMenuOpen(false)}>Services &amp; Rates</NavLink>
       </nav>
     </header>
   )

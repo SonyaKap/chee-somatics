@@ -46,19 +46,6 @@
   color: var(--text-dark);
 }
 
-.nav-cta {
-  border: 1px solid var(--sage) !important;
-  color: var(--sage) !important;
-  padding: 0.5rem 1.2rem;
-  border-radius: 2px;
-  transition: background 0.2s, color 0.2s !important;
-}
-
-.nav-cta:hover {
-  background: var(--sage) !important;
-  color: var(--cream) !important;
-}
-
 /* Hamburger */
 .nav-hamburger {
   display: none;

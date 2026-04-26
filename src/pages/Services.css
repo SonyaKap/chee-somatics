@@ -128,19 +128,3 @@
   color: var(--text-mid);
   margin-bottom: 1.5rem;
 }
-
-.cta-btn {
-  display: inline-block;
-  font-family: var(--font-sans);
-  font-size: 0.75rem;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
-  color: var(--cream);
-  background: var(--sage);
-  padding: 0.875rem 2.5rem;
-  border-radius: 2px;
-  text-decoration: none;
-  transition: background 0.2s;
-}
-
-.cta-btn:hover { background: var(--sage-dark); }
