@@ -20,15 +20,6 @@
   padding: 5rem 2rem 7rem;
 }
 
-.page-title {
-  font-family: var(--font-serif);
-  font-size: clamp(2rem, 4vw, 3rem);
-  font-weight: 300;
-  color: var(--text-dark);
-  margin-bottom: 3rem;
-  letter-spacing: 0.02em;
-}
-
 .services-section {
   margin-bottom: 0;
   padding: 2.5rem 0;
@@ -107,13 +98,27 @@
   border-left: 2px solid var(--sage-light);
 }
 
-.policy-list strong { color: var(--text-dark); }
+.policy-list strong { 
+  color: var(--text-dark); 
+  font-weight: 575;
+}
 
 /* Divider */
 .section-divider {
   border: none;
   border-top: 1px solid var(--border);
 }
+
+
+a {
+  color: var(--text-dark);
+  transition: color 0.2s;
+}
+a:hover { 
+  color: var(--text-mid);
+  text-decoration: none;
+}
+
 
 /* CTA */
 .services-cta {

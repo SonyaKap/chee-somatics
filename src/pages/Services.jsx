@@ -74,7 +74,7 @@ export default function Services() {
               for Ohio residents. I offer telehealth services on Mondays, Tuesdays, and Thursdays.
             </li>
             <li>
-              <strong>In-person sessions:</strong> A limited number of in-person sessions are available in Westerville,
+              <strong>In-person sessions:</strong> A limited number of in-person sessions are available in Worthington,
               Ohio, on Wednesdays.
             </li>
             <li>
@@ -87,7 +87,7 @@ export default function Services() {
 
         <div className="services-cta">
           <p>Ready to take the first step?</p>
-          <i>Get in touch at azaleatang@protonmail.com</i>
+          <i>Get in touch at <a href="mailto:azaleatang@protonmail.com">azaleatang@protonmail.com</a></i>
         </div>
       </section>
     </div>

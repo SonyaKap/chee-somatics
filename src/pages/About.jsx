@@ -5,14 +5,16 @@ export default function About() {
     <div className="about">
       {/* Content */}
       <section className="about-content">
-        <h1 className="page-title">About Me</h1>
-        <div className="about-body">
+        <div className="about-header">
+          <h1 className="page-title">About Me</h1>
           <img
             src={azaleaHeadshot}
             alt="Therapist portrait"
             className="therapist-photo"
           />
-          {/* <div className="about-body-column-two"> */}
+        </div>
+        <div className="about-body">
+
           <p>
             Hi! I’m Azalea Tang, practice owner of Chee Somatics. I’m a first-born
             millennial daughter to first-generation Chinese immigrants, living most
@@ -68,8 +70,6 @@ export default function About() {
             <li>Chronic Illness</li>
           </ul>
         </div>
-
-        {/* </div> */}
       </section>
     </div>
   )

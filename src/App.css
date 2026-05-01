@@ -8,12 +8,14 @@
 
   --cream:      #f7f4ef;
   --warm-dark:  #2b2620;
+  --warm-mid:  #857c70;
   --text-dark:  #2b2620;
   --text-mid:   #6b6158;
   --sage:       #7a8c72;
   --sage-light: #b5c4ac;
   --sage-dark:  #5e6e57;
   --border:     #e2ddd6;
+  --purple:     #382a82;
 }
 
 /* ── Reset & Base ─────────────────────────────────────────── */
@@ -34,5 +36,18 @@ body {
 
 main {
   flex: 1;
-  padding-top: 72px; /* nav height */
+  padding-top: 4rem; /* nav height */
+}
+
+.page-title {
+  font-family: var(--font-serif);
+  font-size: clamp(2rem, 4vw, 3rem);
+  font-weight: 300;
+  color: var(--text-dark);
+  letter-spacing: 0.02em;
+  margin-bottom: 1.5rem;
+
+  @media (width >= 768px) {
+    margin-bottom: 2.5rem;
+  }
 }

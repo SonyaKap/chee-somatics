@@ -79,12 +79,15 @@
   color: var(--cream);
   background: var(--sage);
   padding: 0.75rem 1.75rem;
-  border-radius: 2px;
+  border-radius: 20px;
   text-decoration: none;
   transition: background 0.2s;
 }
 
-.split-btn-primary:hover { background: var(--sage-dark); }
+.split-btn-primary:hover { 
+  background: var(--sage-dark); 
+  color: var(--cream);
+}
 
 .split-btn-secondary {
   font-family: var(--font-sans);
@@ -94,17 +97,17 @@
   color: var(--sage);
   border: 1px solid var(--sage);
   padding: 0.75rem 1.75rem;
-  border-radius: 2px;
+  border-radius: 20px;
   text-decoration: none;
   transition: background 0.2s, color 0.2s;
 }
 
 .split-btn-secondary:hover {
-  background: var(--sage);
+  background: var(--sage-dark);
   color: var(--cream);
 }
 
-@media (max-width: 700px) {
+@media (max-width: 767px) {
   .home { height: auto; }
 
   .split-hero {
@@ -112,5 +115,16 @@
     grid-template-rows: 40vh auto;
   }
 
-  .split-right { padding: 2.5rem 1.75rem 3rem; }
+  .split-right { 
+    padding: 2.5rem 1.75rem 3rem; 
+  }
+  .split-right p, h1 {
+    text-align: center;
+  }
+  .split-actions, .split-right, .split-tagline {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 }
