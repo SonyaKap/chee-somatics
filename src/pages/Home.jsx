@@ -14,11 +14,11 @@ export default function Home() {
 
         {/* Right — cream panel with text */}
         <div className="split-right">
-          <p className="split-eyebrow">Licensed Clinical Social Worker &nbsp;·&nbsp; Columbus, OH</p>
-          <h1 className="split-name">Azalea Tang,<br />LCSW</h1>
+          <p className="split-eyebrow">Licensed Independent Social Worker &nbsp;·&nbsp; Columbus, OH</p>
+          <h1 className="split-name">Azalea Tang,<br />LISW</h1>
           <p className="split-tagline">
-            I offer a warm, non-judgmental space to work through what's
-            weighing on you — at your pace, on your terms.
+            I offer a space for you to show up exactly as you are, 
+            with the aim of reconnecting you to your life force through combined wisdoms of body, mind, and spirit.
           </p>
           <div className="split-actions">
             <Link to="/about" className="split-btn-primary">About Me</Link>

@@ -20,13 +20,9 @@ export default function Services() {
           <h2 className="section-heading">Services</h2>
 
           <div className="service-item">
-            <h3>Individual Therapy — 50 minutes</h3>
+            <h3>Individual Sessions — 50-55 minutes: $150</h3>
             <p>
-              A dedicated hour focused entirely on you. Together we'll work through
-              whatever you're carrying — whether that's anxiety, grief, relationship
-              struggles, life transitions, or simply a sense that something isn't
-              quite right. Sessions are collaborative, compassionate, and tailored
-              to your needs.
+              
             </p>
           </div>
 
@@ -47,7 +43,7 @@ export default function Services() {
           <h2 className="section-heading">Rates</h2>
           <div className="rates-grid">
             <div className="rate-row">
-              <span>Individual session (50 min)</span>
+              <span>Individual session (50-55 min)</span>
               <span>$150</span>
             </div>
             <div className="rate-row">
@@ -74,20 +70,18 @@ export default function Services() {
               for Ohio residents. I offer telehealth services on Mondays, Tuesdays, and Thursdays.
             </li>
             <li>
-              <strong>In-person sessions:</strong> A limited number of in-person sessions are available in Worthington,
-              Ohio, on Wednesdays.
+              <strong>In-person sessions:</strong> In-person sessions are currently available on Wednesdays in Worthington, OH. 
             </li>
             <li>
               <strong>Cancellations:</strong> Please cancel or reschedule at least
-              24 hours in advance. Late cancellations or no-shows will be charged
-              the full session fee.
+              24 hours in advance. Late cancellations or no-shows are subject fees.
             </li>
           </ul>
         </div>
 
         <div className="services-cta">
           <p>Ready to take the first step?</p>
-          <i>Get in touch at <a href="mailto:azaleatang@protonmail.com">azaleatang@protonmail.com</a></i>
+          <i>Get in touch at <a href="mailto:azaleatang@protonmail.com">azaleatang@protonmail.com or 614-585-2016</a></i>
         </div>
       </section>
     </div>

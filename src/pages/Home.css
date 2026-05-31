@@ -11,7 +11,7 @@
 
 .split-left {
   line-height: 0;
-  background: var(--sage);
+  background: var(--orange);
   display: flex;
   align-items: center;
   justify-content: center;

@@ -9,7 +9,7 @@ export default function Nav() {
   return (
     <header className="nav-header">
       <NavLink to="/" className="nav-logo">
-        Azalea Tang, LCSW
+        Azalea Tang, LISW
       </NavLink>
       <button
         className={`nav-hamburger ${menuOpen ? 'open' : ''}`}
