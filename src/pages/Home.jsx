@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import logo from '../assets/chee_somatics_logo.svg'
+import logo from '../assets/chee_somatics_logo.png'
 import './Home.css'
 
 export default function Home() {

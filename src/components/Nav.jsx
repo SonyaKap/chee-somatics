@@ -1,7 +1,6 @@
 import { useState } from 'react'
 import { NavLink } from 'react-router-dom'
 import './Nav.css'
-import logo from '../assets/chee_somatics_logo.svg'
 
 export default function Nav() {
   const [menuOpen, setMenuOpen] = useState(false)
@@ -16,7 +15,6 @@ export default function Nav() {
         onClick={() => setMenuOpen(!menuOpen)}
         aria-label="Toggle menu"
       >
-        <span /><span /><span />
       </button>
 
       <nav className={`nav-links ${menuOpen ? 'open' : ''}`}>

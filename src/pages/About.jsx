@@ -1,5 +1,6 @@
 import './About.css'
 import azaleaHeadshot from '../assets/AzaleaHeadshot.jpg'
+
 export default function About() {
   return (
     <div className="about">
