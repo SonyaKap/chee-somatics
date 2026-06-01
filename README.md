@@ -1,4 +1,4 @@
-# Cheesomatics — Dev Setup Guide
+# Chee Somatics — Dev Setup Guide
 
 ## Prerequisites
 
